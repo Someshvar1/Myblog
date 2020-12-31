@@ -1,66 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#welcome">Home</a></li>
-        <li class="links"><a href="#bio">Works</a></li>
-        <li class="links"><a href="#album">Album</a></li>
-        <li class="links"><a href="#video">Video</a></li>
-        <li class="links"><a href="#contact">Contacts</a></li>
-        <li class="links"><a href="#article">Articles</a></li>
-    </ul>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Someshvar Sharan</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">TRAVEL</a></li>
+        <li><a href="#movies">MOVIES</a></li>
+        <li><a href="#environment">ENVIRONMENT</a></li>
+        <li><a href="#book">BOOKS</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="page-header" id="travel">
+    <h2 class="text-capitalize">Places to must visit</h2></div>
+    <center>
+    <div class="travel_maindiv">
+        <img class="img-responsive" src="trave1.jpeg">
+        <h4 class="text-capitalize"><kbd>prithvi cafe</kbd></h4>
+        <hr>
+        <h5 class="text-success text-left text-capitalize">visited in dec 2018</h5> 
+        <p class="text-muted text-left">Quaint little restaurant tucked inside a by-lane of Juhu. Blink and you will miss the entrance to the cafe. So be alert enough to spot the black signboard that says "Prithvi cafe" while you are on the main road. The restaurant has a reasonably good menu at reasonable prices. The food is delicious, the servings are quite large and some dishes can be shared by 2 people. Attracts quite a trendy crowd of aspiring celebrities on show days. Be sure to book in advance to avoid disappointments. On other days, the crowd there is pretty hep & happening. Hosts the famous "Prithvi theater fest", which you must attend if possible.
+</p>
         
-    
-    
-    <section class="parallex-container" id="welcome">
-        <div class="parallex-inner">
-            
+        </div>
+    </center>
+    <center>
+    <div class="travel_maindiv">
+        <img class="img-responsive" src="travel2.jpeg">
+        <h4 class="text-capitalize"><kbd>jantar mantar</kbd></h4>
+        <hr>
+        <h5 class="text-success text-left text-capitalize">visited in feb 2018</h5> 
+        <p class="text-muted text-left">The Jantar Mantar is a collection of nineteen architectural astronomical instruments built by the Rajput king Sawai Jai Singh II, the founder of Jaipur, Rajasthan. The monument was completed in 1734.[1][2] It features the world's largest stone sundial, and is a UNESCO World Heritage site.[1][3] It is located near City Palace and Hawa Mahal.[4] The instruments allow the observation of astronomical positions with the naked eye.[1] The observatory is an example of the Ptolemaic positional astronomy which was shared by many civilizations.[1][2]
 
-            <img src="sir.jpg">
-            <h1>Tim Berners Lee</h1>
-            <h2>founder of world wide web</h2>
+The monument features instruments operating in each of the three main classical celestial coordinate systems: the horizon-zenith local system, the equatorial system, and the ecliptic system.[2] The Kanmala Yantraprakara is one that works in two systems and allows transformation of the coordinates directly from one system to the other.[5]
+</p>
+        
+        </div>
+    </center>
+    <center>
+    <div class="travel_maindiv">
+        <img class="img-responsive" src="travel4.jpeg">
+        <h4 class="text-capitalize"><kbd>Tamang monastery</kbd></h4>
+        <hr>
+        <h5 class="text-success text-left text-capitalize">visited in sep 2018</h5> 
+        <p class="text-muted text-left">Tamang Monastery (Tashi Samten Ling Monastery - Tamang Gumba) is located in Mirik, equidistant from Siliguri and Darjeeling. The intricate art works on the inside and the outside walls of the monastery are eye catching. Hence, Tamang Monastery is a hotspot for spiritual seekers, students of Buddhism and travellers. Summer is the best time to visit Monastery. The view of the majestic snow-capped 'Kanchenjunga' is especially beautiful from the Monastery. Nearby Sumendu Lake is a manmade lake 1.25 kms long famous for boating and fishing. For Visitors to the Monastery accommodation is available near the Sumendu Lake. Local modes of transport like cabs and horses are available for travelling to the Tamang Monastery. Peace Pagoda, Himalayan Rail, Mt. Kanchenjunga and passenger ropeway are some other nearby attractions.
+</p>
+        
+        </div>
+    </center>
+    <section id="movies">
+    <div class="page-header" id="movie">
+        <h2 class="text-capitalize">Movie reviews</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Avengersendgame">
+    <span class="glyphicon glyphicon-film"></span>Avengers Endgame<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="Avengersendgame" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="movie1.jpeg" class="img-responsive img-thumbnail">
+        </div>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">Excellent film to culminate mcu right
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span></h5>
+           <p>Saw it today.You should have a minimal previous understanding of the movies or you�耱l miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite impressive. But most is comic book style figand battles.Must go to bathroom just before the movie because ut does last 3 hours all worthwhile.</p>
+        </div> 
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#lk">
+    <span class="glyphicon glyphicon-film"></span>The lion king<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="lk" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="movie2.jpg" class="img-responsive img-thumbnail">
+        </div>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">A film about A baby lion
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span></h5>
+           <p>It may be a long time before viewers can appreciate the 2019 remake of "The Lion King" as a freestanding work, instead of judging it against the original. The 1994 version was "Hamlet" plus "Bambi" on the African veldt: a childhood-shaping, Oscar-winning blockbuster, the second-highest grossing feature film of its calendar year, one of the last great hand-drawn Disney animated features (Pixar's original "Toy Story" came out 18 months later), and a tear-producing machine.</p>
+        </div> 
+        </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#lf">
+    <span class="glyphicon glyphicon-film"></span>Frozen II<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="lf" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="movie4.jpeg" class="img-responsive img-thumbnail">
+        </div>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">The snow filled film
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span></h5>
+           <p>"Frozen," the latest Disney musical extravaganza, preaches the importance of embracing your true nature but seems to be at odds with itself.
+
+The animated, 3-D adventure wants to enliven and subvert the conventions of typical Disney princess movies while simultaneously remaining true to their aesthetic trappings for maximum merchandising potential. It encourages young women to support and stay loyal to each other—a crucial message when mean girls seem so prevalent—as long as some hunky potential suitors and adorable, wise-cracking creatures also are around to complete them.</p>
+        </div> 
+        </div>
+         <div class="bg-primary movie_head" data-toggle="collapse" data-target="#ts">
+    <span class="glyphicon glyphicon-film"></span>Toy story 4<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="ts" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/ACAD70A4B58CC0B20E174C273D5F7D6158677A3179C066D1FF622B464FFB709E" class="img-responsive img-thumbnail">
+        </div>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">The animated toy movie
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span></h5>
+           <p>Toy Story 4 is a 2019 American computer-animated comedy film produced by Pixar Animation Studios and released by Walt Disney Pictures. It is the fourth installment in Pixar's Toy Story series and the sequel to Toy Story 3 (2010). It was directed by Josh Cooley (in his feature directorial debut) from a screenplay by Andrew Stanton and Stephany Folsom; the three also conceived the story alongside John Lasseter, Rashida Jones, Will McCormack, Valerie LaPointe, and Martin Hynes.[2] Tom Hanks, Tim Allen, Annie Potts, Joan Cusack, Don Rickles (via archive recordings),[a] Wallace Shawn, John Ratzenberger, Estelle Harris, Blake Clark, Bonnie Hunt, Jeff Garlin, Kristen Schaal and Timothy Dalton reprise their character roles from the first three films. They are joined by Tony Hale, Keegan-Michael Key, Jordan Peele, Christina Hendricks, Keanu Reeves, and Ally Maki, who voice the new characters.</p>
+        </div> 
+        </div>
+         <div class="bg-primary movie_head" data-toggle="collapse" data-target="#ffh">
+    <span class="glyphicon glyphicon-film"></span>Far from home<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="ffh" class="collapse">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img class="img-responsive img-thumbnail" src="https://img.cinemablend.com/quill/f/a/5/c/d/8/fa5cd8d97ce9476ee026174f79d74c069d98a681.jpg">
+        </div>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">The animated spiderman movie
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span>
+           <span class="glyphicon glyphicon-star"></span></h5>
+           <p>Spider-Man: Far From Home is a 2019 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing. It is the sequel to Spider-Man: Homecoming (2017) and the 23rd film in the Marvel Cinematic Universe (MCU). The film was directed by Jon Watts, written by Chris McKenna and Erik Sommers, and stars Tom Holland as Peter Parker / Spider-Man, alongside Samuel L. Jackson, Zendaya, Cobie Smulders, Jon Favreau, J. B. Smoove, Jacob Batalon, Martin Starr, Marisa Tomei, and Jake Gyllenhaal. In Spider-Man: Far From Home, Parker is recruited by Nick Fury and Mysterio to face the Elementals while he is on a school trip to Europe.</p>
+        </div> 
         </div>
     </section>
-    <section class="box" id="bio">
-        <div class="box-inner">
-            <p>Sir Timothy John Berners-Lee OM KBE FRS FREng FRSA FBCS (born 8 June 1955),[1] also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford[2] and a professor at the Massachusetts Institute of Technology (MIT).[3][4] Berners-Lee proposed an information management system on 12 March 1989,[5][6] then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.<br><br>
+    
+    <div class="page header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+        <h2 class="text-capitalize">News about environment</h2>
+        
+        <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>LEGO plans to find replacement material for bricks by 2030</h4>
+            <img src="e1.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective �𦣇licking�� together is a key aspect of the iconic coloured block.The Lego shapes will alternatively be made from plant-based materials in an attempt to reduce plastic waste.
 
-                Berners-Lee is the director of the World Wide Web Consortium (W3C) which oversees the continued development of the Web. He is also the founder of the World Wide Web Foundation and is a senior researcher and holder of the 3Com founders chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).[12] He is a director of the Web Science Research Initiative (WSRI)[13] and a member of the advisory board of the MIT Center for Collective Intelligence.[14][15] In 2011, he was named as a member of the board of trustees of the Ford Foundation.[16] He is a founder and president of the Open Data Institute and is currently an advisor at social network MeWe.<br><br>
+The Danish company are set to release their new eco-friendly line consisting of 25 various brick shapes that will resemble nature-inspired products.
 
-                In 2004, Berners-Lee was knighted by Queen Elizabeth II for his pioneering work.[18][19] In April 2009, he was elected a Foreign Associate of the National Academy of Sciences.[20][21] He was named in Time magazine's list of the 100 Most Important People of the 20th century and has received a number of other accolades for his invention.[22] He was honoured as the "Inventor of the World Wide Web" during the 2012 Summer Olympics opening ceremony in which he appeared working with a vintage NeXT Computer at the London Olympic Stadium.[23] He tweeted "This is for everyone"[24] which appeared in LCD lights attached to the chairs of the audience.[23] He received the 2016 Turing Award "for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale".[25]</p>
+They will be made out of polyethylene, which is made from sugar cane, and are set to be rolled out in Lego box sets later this year. However, the toy manufacturer admits that this material is not strong enough to make regular Lego pieces.
+
+Lego are investing 1 billion kroner and hiring around 100 people to ensure that its promise is fulfilled.
+
+Lego said: “Resources should be sourced and used responsibly, so they will still benefit future generations. We are constantly in pursuit of more sustainable solutions to our raw materials consumption and our packaging.”
+
+Tim Brooks, Vice President of environmental responsibility at Lego, said: “At Lego, we want to make a positive impact on the world around us, and we are working hard to make great play products for children using sustainable materials. This is a great first step in our ambitious commitment of making all Lego bricks using sustainable material.”
+
+Lego have also committed to reducing carbon emissions by promising 100 per cent renewable energy by 2020 and they are aiming for a carbon neutral supply chain. They are also promoting recycling by encouraging families to recycle or donate unwanted Lego bricks.</p>
+            </li>
+        </ul>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Amazon deforestation and fires show the summer of 2019 not normal year</h4>
+            <img src="e3.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The perceived scale of the Amazon blazes received global attention this summer. However, international concerns raised at the time were countered by the Brazilian Government, which claimed the fire situation in August was 'normal' and 'below the historical average'.An international team of scientists writing in the journal Global Change Biology say the number of active fires in August was actually three times higher than in 2018 and the highest number since 2010.The Amazon rainforest is the largest rainforest in the world, covering an area of 5,500,000 km2 (2,100,000 sq mi). It represents over half of the planet's rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60%, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and France (French Guiana).
+
+The cattle sector of the Brazilian Amazon, incentivized by the international beef and leather trades,[1] has been responsible for about 80% of all deforestation in the region,[2][3] or about 14% of the world's total annual deforestation, making it the world's largest single driver of deforestation.[4] The vast majority of agricultural activity resulting in deforestation was subsidized by government tax revenue.[5] By 1995, 70% of formerly forested land in the Amazon, and 91% of land deforested since 1970 had been converted to cattle ranching.[6][7] Much of the remaining deforestation within the Amazon has resulted from farmers clearing land (sometimes using the slash-and-burn method) for small-scale subsistence agriculture[8] or mechanized cropland producing soy, palm, and other crops.[9]
+
+More than one-third of the Amazon forest belongs to more than 3,344 formally acknowledged indigenous territories. Until 2015, only 8% of Amazonian deforestation occurred in forests inhabited by indigenous peoples, while 88% of occurred in the less than 50% of the Amazon area that is neither indigenous territory nor protected area. Historically, the livelihoods of indigenous Amazonian peoples have depended on the forest for food, shelter, water, fibre, fuel and medicines. The forest is also interconnected with their identity and cosmology. For this reason the deforestation rates are lower in indigenous territories, despite pressures encouraging deforestation being stronger.[10]</p>
+            </li>
+        </ul></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+<section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="400" frameborder="0"  allowfullscreen=""></iframe>
+
+       <hr style="width: 100%;">
+      <img src="someshvar%20.jpeg" class="img-reponsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+      <h3>Someshvar Sharan</h3>
+        <div class="contact_1" >
+
+           <a href="mailto:chidambaramanivasagam5625@gmail.com?Subject=greetings">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;chidambaramanivasagam5625@gmail.com</h5>
+            </a> 
+
+           <a href="tel:9344135860"> 
+               <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;9344135860</h5>
+            </a> 
         </div>
-        <div class="line"></div>
-        <a class="article" id="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a><br><br><a class="article" id="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
-    </section>
-     <div class="section-style" id="album">
-                <img src="https://t2.gstatic.com/images?q=tbn:ANd9GcQi-4GrRiraxgytp4QE_LvAVI3etbINALVH_8LfqWCCeAou6h_vb5-VvOme1kAY"><p>Tim berners lee</p>
-            </div>
-          <div class="image-section">
-            <div class="section-style">
-                <img src="https://webfoundation.org/docs/2019/03/TBL-at-Web-Summit_Letter.jpg"><p>In a function</p>
-            </div>
-            <div class="section-style">
-                <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F200312100138-tim-berners-lee-file-restricted.jpg"><p>one of the meetings</p>
-              </div></div>
-    <section class="box" id="video">
-        <iframe width="953" height="538" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="956" height="538" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section class="box" id="contact">
-    <p>Email. timbl@w3.org.<br>
-Phone. 253-5702.<br>
-Room. 32-G524.</p>
-    </section>
+</section>
+
 </body>
-
 </html>
