@@ -11,7 +11,7 @@
     text-shadow: none;
 }
 #contact{
-    margin-top:1000px;
+    margin-top:1800px;
 }
 input
 {
@@ -81,4 +81,25 @@ color: #ff7700;
 .environment_li p
 {
   margin-top:10px;
+}
+header_entrepreuner{
+    line-height:2;
+}
+.book{
+   cursor: pointer;
+}
+.book hr{
+   margin-bottom: 10px;
+}
+.modal-content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
+.modal-body{
+    text-align: center;
 }
